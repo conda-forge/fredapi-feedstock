@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.2
   run:
-    - pandas
-    - python
+    - pandas >=0.15
+    - python >=3.2
 
 test:
   imports:
